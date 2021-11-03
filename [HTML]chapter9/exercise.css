@@ -31,21 +31,21 @@ main {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-img2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-img3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-num {
@@ -62,4 +62,28 @@ main {
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+main {
+  width: 100%;
+  display: block;
+  margin: 50px 0;
+}
+
+.step-box {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.step-box:last-child {
+  margin: 0 auto;
+}
+
+
 }
